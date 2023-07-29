@@ -15,7 +15,6 @@ export default function App() {
   ]);
 
   const createUser = data => {
-    console.log(data);
     if (
       contacts.find(
         contact => contact.name.toLowerCase() === data.name.toLowerCase()
